@@ -459,11 +459,11 @@ a.abc {width: 300px !important;}
   }*/
 
 
-@media screen and (max-width: 470px) and (min-width: 330px) {
+@media screen and (max-width: 470px) and (min-width: 325px) {
  
 a:nth-child(1).abc.active~.animation {  
  width: 25px;
- left: 174px;
+  left: 106px;
  content: '';
  background: url(../images/bar.png);
  background-repeat: no-repeat;
@@ -476,7 +476,7 @@ a:nth-child(1).abc.active~.animation {
 a:nth-child(2).abc.active~.animation  {
   background: #cc4d48;
   width:25px;
-  left: 174px;
+ left: 106px;
   content: '';
   background: url(../images/bar.png);
   background-repeat: no-repeat;
@@ -489,7 +489,7 @@ a:nth-child(2).abc.active~.animation  {
 a:nth-child(3).abc.active~.animation {
   background: #cc0000;
   width: 25px;
-  left: 174px;
+  left: 106px;
   content: '';
   background: url(../images/bar.png);
   background-repeat: no-repeat;
